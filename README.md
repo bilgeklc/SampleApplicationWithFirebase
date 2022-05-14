@@ -20,3 +20,32 @@ https://firebase.google.com/docs/firestore/quickstart?hl=en&authuser=0
 Cloud Storage for Firebase is built for app developers who need to store and serve user-generated content, such as photos or videos.Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale. The Firebase SDKs for Cloud Storage add Google security to file uploads and downloads for your Firebase apps, regardless of network quality.
 
 https://firebase.google.com/docs/storage/android/start?hl=en&authuser=0
+
+
+
+
+---- Picasso ----
+
+A powerful image downloading and caching library for Android..
+
+Download : 
+
+https://github.com/square/picasso
+
+
+Images add much-needed context and visual flair to Android applications. Picasso allows for hassle-free image loading in your application—often in one line of code!
+
+Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(imageView);
+
+Many common pitfalls of image loading on Android are handled automatically by Picasso:
+
+- Handling ImageView recycling and download cancelation in an adapter.
+
+- Complex image transformations with minimal memory use.
+
+- Automatic memory and disk caching.
+
+
+
+
+
