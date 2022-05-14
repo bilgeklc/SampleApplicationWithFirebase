@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699688826196",
+    "project_id": "sampleapplicationwithfirebase",
+    "storage_bucket": "sampleapplicationwithfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699688826196:android:c2a9ac40938128731ec4c1",
+        "android_client_info": {
+          "package_name": "com.bilge.kotlinfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699688826196-fgsqbu3up222v3vd0ls0d0ssi4ctqe4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf5F_0gSXE3EcjjWYTVL8fnkF3Ok7nZiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699688826196-fgsqbu3up222v3vd0ls0d0ssi4ctqe4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
