@@ -84,7 +84,6 @@ class UploadActivity : AppCompatActivity() {
                             Toast.makeText(this@UploadActivity, it.localizedMessage, Toast.LENGTH_LONG).show()
                         }
                     }
-
                 }
             }.addOnFailureListener {
                 Toast.makeText(this,it.localizedMessage,Toast.LENGTH_LONG).show()
@@ -107,11 +106,7 @@ class UploadActivity : AppCompatActivity() {
         }else{
             val intentToGallery = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
             activityResultLauncher.launch(intentToGallery)
-
         }
-
-
-
     }
 
     private fun registerLauncher(){
@@ -123,10 +118,8 @@ class UploadActivity : AppCompatActivity() {
                     selectedPicture?.let {
                         binding.imageView.setImageURI(it)
                     }
-
                 }
             }
-
         }
         permissionLauncher = registerForActivityResult(ActivityResultContracts.RequestPermission()){ result ->
             if(result){
@@ -134,12 +127,9 @@ class UploadActivity : AppCompatActivity() {
                 val intentToGallery = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
                 activityResultLauncher.launch(intentToGallery)
 
-
             }else{
                 Toast.makeText(this@UploadActivity,"Permission needed!",Toast.LENGTH_LONG).show()
             }
-
         }
-
     }
 }
